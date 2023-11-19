@@ -16,14 +16,7 @@ In this repository, you'll find an array of projects showcasing my skills in Pyt
 ### Featured Projects
 
 - [**Day #001** :](Projects/Day_001/) On the very first day of my Python journey, I embarked on creating practical applications to solidify my understanding of the basics. The highlight of this day was the **Band Name Generator**. **Band Name Generator** is simple Python application that creatively combines user input to generate unique band names. This project served as an excellent introduction to handling strings and user input in Python, marking the start of my journey in programming and problem-solving.
-
-[Other projects from Day 001 can be listed here if applicable]
-
----
-
-Replace the placeholder URL `https://github.com/yourusername/your-repository/tree/main/projects/Day#001` with the actual URL to your Band Name Generator project. This format provides a concise yet informative summary of your Day 001 accomplishments, with an emphasis on the Band Name Generator as a key project. It showcases the project's purpose and the fundamental skills you developed, setting the stage for your ongoing learning journey in Python and beyond.
-
-* [More projects to be added as I progress]
+- [**Day #002** :](Projects/Day_002/) The second day of my Python journey saw me diving into four engaging beginner-level projects. I started with a program that adds the digits of a two-digit number, honing my basic arithmetic skills. Following this, I created a BMI Calculator that uses height and weight to compute body mass index, offering practical experience with numerical inputs. Next was the Life in Weeks Calculator, a unique application that calculates the remaining weeks of life based on current age, furthering my data manipulation abilities. Lastly, I developed a Tip Calculator that evenly splits a bill, including tips, among diners, showcasing more advanced arithmetic operations and user input handling in Python.
 
 ## Daily Learning Updates
 
