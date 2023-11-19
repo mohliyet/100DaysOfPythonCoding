@@ -1,4 +1,3 @@
-
 # A Journey in Python, AI, and Beyond
 
 ## Introduction
@@ -16,7 +15,7 @@ In this repository, you'll find an array of projects showcasing my skills in Pyt
 
 ### Featured Projects
 
-- **Band Name Generator** : [Link](Projects/Day#001/1_brand_name_generator.py) This was my first Python project. It's a simple yet fun application that combines user input to generate unique band names. This project was a great introduction to Python basics, like handling strings and user input.
+- **Band Name Generator** : [Link](Projects/Day_001/1_brand_name_generator.py) This was my first Python project. It's a simple yet fun application that combines user input to generate unique band names. This project was a great introduction to Python basics, like handling strings and user input.
 
 * [More projects to be added as I progress]
 
