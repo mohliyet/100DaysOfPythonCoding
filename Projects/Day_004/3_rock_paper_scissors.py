@@ -53,6 +53,8 @@ if (input_number == 0 and computer_choose == 2) or (input_number == 2 and comput
     print('You won!')
 elif (input_number == 0 and computer_choose == 0) or (input_number == 1 and computer_choose == 1) or (input_number == 2 and computer_choose == 2):
     print('Draw!')
+elif input_number>=3:
+    print("You entered an invalid number!")
 else:
     print('You lose!')
 
