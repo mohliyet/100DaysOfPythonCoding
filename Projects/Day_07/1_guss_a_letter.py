@@ -11,7 +11,8 @@ chosen_word=random.sample(word_list,1)[0]
 guess = input("Guess a letter: ").lower()
 
 #TODO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
-if guess in chosen_word:
-    print("Good guess!")
-else:
-    print("Sorry, that's not it.")
+for letter in chosen_word:
+    if letter in guess:
+        print("Good guess!")
+    else:
+        print("Sorry, that's not it.")
