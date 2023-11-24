@@ -4,17 +4,23 @@ chosen_word=random.sample(word_list,1)[0]
 
 
 display=[]
-for i in range(len(chosen_word)):
+for _ in range(len(chosen_word)):
     display.append('_')
 
 # print(f'Total spaces in the guessed word: {display}')
-
-guess = input("Guess a letter: ").lower()
-
-
-for index , letter in enumerate(chosen_word):
-    if letter in guess:
-        display[index] = letter
+while '_' in display:
+    guess = input("Guess a letter: ").lower()
+    if guess in chosen_word:
+      for position in range(len(chosen_word)):
+        letter = chosen_word[position]
+        if letter in guess:
+            display[position] = letter
+        else:
+            pass
+      print(display)
     else:
-        pass
-print(display)
+      break
+if '_' not in display:
+    print('You won!')
+else:
+   print('You lost!')
