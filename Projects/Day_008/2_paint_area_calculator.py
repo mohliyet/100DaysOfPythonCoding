@@ -1,9 +1,9 @@
-def paint_calc(height, width, cover):
-  no_of_cans = (height*width)/cover
-  if no_of_cans > round(no_of_cans):
-    print(f"You'll need {round(no_of_cans)+1} cans of paint.")
-  else:
-    print(f"You'll need {round(no_of_cans)} cans of paint.")
+# def paint_calc(height, width, cover):
+#   no_of_cans = (height*width)/cover
+#   if no_of_cans > round(no_of_cans):
+    # print(f"You'll need {round(no_of_cans)+1} cans of paint.")
+#   else:
+    # print(f"You'll need {round(no_of_cans)} cans of paint.")
 
 import math
 def paint_calc(height, width, cover):
